@@ -1,0 +1,25 @@
+.amarillo{
+	background-color:yellow;
+}
+.azul{	
+	background-color:blue; 
+}
+.rojo{
+	background-color:red;
+}
+.bloque{
+	width:25%;
+	height:100px;
+	float:left;
+}
+.cuadro{
+	border:5px solid black;
+	width: 600px;
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display:table;
+}
+.clearfix:after{
+	clear: both;
+}
